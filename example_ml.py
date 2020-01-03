@@ -26,8 +26,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # read data
-train_path = "data/case2_training.csv"
-test_path = "data/case2_testing.csv"
 # train_path = "path/to/train.csv"  # with label
 # test_path = "path/to/test.csv"
 
