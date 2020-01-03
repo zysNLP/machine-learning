@@ -2,24 +2,23 @@ A simple machine learning repo for share. There are some usefull tools.
 
 about example_ml.py
 
-方法简介
+Methods introduction
 
-  对于离散无序变量，特征工程使用pd.dummies转为one-hot特征。
+For discrete disordered variables, feature engineering USES pd. Dummies to transform one-hot features.
 
-  对于连续数据，特征工程进行标准化处理；比较特征，作为离散有序数据or连续数据对待?
+For continuous data, the characteristic engineering is standardized. Compare features as discrete ordered data or continuous data?
 
-  对于离散有序数据，首先作为连续数据探索与因变量的关系，再根据实际情况讨论作为其他数据类型的可行性。
+For discrete ordered data, the relationship between the dependent variable and the continuous data is first explored, and then the feasibility of other data types is discussed according to the actual situation.
 
+Modeling process:
 
-建模流程：
+Data exploration: read data, missing value, variable type, data type, etc.;
 
-  数据探索：读取数据、缺失值、变量类型、数据类型等；
+Data cleaning: variable classification, type conversion, normalization or standardization;
 
-  数据清洗：变量分类、类型转换、归一化or标准化；
+Feature engineering: feature correlation analysis, feature construction and feature selection;
 
-  特征工程：特征相关性分析、特征构造、特征选择；
+Model construction: initial model, integration model, reference model, cross-validation;
 
-  模型构建：初始模型、集成模型，调参模型，交叉验证；
-
-  指标评价：F1-score、AUC分析、内存占用；
+Index evaluation: f1-score, AUC analysis, memory occupancy;
 
