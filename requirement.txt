@@ -1,0 +1,7 @@
+# python 3
+# python 3.5 and packages '==' version is recommended
+numpy>=1.11.1
+pandas>=0.18.1
+matplotlib>=2.2.2
+seaborn>=0.8.0
+scikit-learn>=0.18
