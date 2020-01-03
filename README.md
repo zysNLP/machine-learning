@@ -1,6 +1,6 @@
 A simple machine learning repo for share. There are some usefull tools.
 
-about example_ml.py
+About machine_learning_example.py
 
 Methods introduction
 
