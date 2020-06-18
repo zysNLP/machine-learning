@@ -4,11 +4,11 @@
 
 ### 方法介绍
 
-> 1.对于离散无序变量，特征工程使用pd。假人转换一个热点特征。
+> 1.对于离散无序变量，特征工程使用pandas的pd. Dummies方法将特征转换为One-Hot形式。
 
-> 2.对于连续数据，特征工程是标准化的。比较特征为离散有序数据或连续数据?
+> 2.对于连续数据，特征工程进行了标准化处理。比较了离散有序特征和或连续特征的不同。
 
-> 3.对于离散有序数据，首先探究因变量与连续数据之间的关系，然后根据实际情况讨论其他数据类型的可行性。
+> 3.对于离散有序数据，首先探究因变量与数据之间的关系，然后根据实际情况讨论其他数据类型的可行性。
 
 ### 建模过程
 
@@ -20,7 +20,7 @@
 
 > 4.模型构建:初始模型、集成模型、参考模型、交叉验证;
 
-> 5.模型评价:f1评分，AUC分析，记忆占用;
+> 5.模型评价:f1评分，AUC分析，内存优化;
 
 
 A simple machine learning repo for share. There are some usefull tools.
@@ -29,11 +29,11 @@ A simple machine learning repo for share. There are some usefull tools.
 
 ### Methods introduction
 
-   > 1.For discrete disordered variables, feature engineering use pd. Dummies to transform one-hot features.
+   > 1.For discrete disordered variables, feature engineering use pd.Dummies to transform one-hot features.
    
-   > 2.For continuous data, the characteristic engineering is standardized. Compare features as discrete ordered data or continuous data?
+   > 2.For continuous data, the characteristic engineering is standardized. Compare features as discrete ordered data or continuous data.
    
-   > 3.For discrete ordered data, the relationship between the dependent variable and the continuous data is first explored, and then the feasibility of other data types is discussed according to the actual situation.
+   > 3.For discrete ordered data, the relationship between the dependent variable and the data is first explored, and then the feasibility of other data types is discussed according to the actual situation.
 
 ### Modeling process
 
